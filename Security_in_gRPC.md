@@ -1,0 +1,4 @@
+- By default, gRPC strongly advocates for you to use SSL (encryption over the wire) in your API
+- This means that gRPC has security as a first class citizen
+- Each language will provide an API to load gRPC with the required certificates and provide encryption capability out of the box.
+- Additionally using Interceptors, we can also provide authentication
